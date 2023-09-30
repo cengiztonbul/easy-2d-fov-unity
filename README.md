@@ -38,4 +38,4 @@ Invisible Appeareance section helps to set saturation and overlay color for invi
 ### FOV Mesh Generator
 ![](Resources/fov-mesh-generator.png)
 
-FOVMeshGenerator generates an FOV Mesh and assigns it to target mesh renderer. It uses raycasts to determine the visible area. This may not be the most optimal implemenetation for your game. It focuses on ease of use and aims to test the Line of Sight Effect.
+FOVMeshGenerator generates an FOV Mesh and assigns it to target mesh filter. It uses raycasts to determine the visible area. This may not be the most optimal implemenetation for your game. It focuses on ease of use and aims to test the Line of Sight Effect.
