@@ -47,9 +47,9 @@ Material:
     m_Floats:
     - _Direction: 13.77
     - _Directions: 16
-    - _Quality: 8
-    - _Saturation: 0.603
-    - _Size: 0.02
+    - _Quality: 3
+    - _Saturation: 0
+    - _Size: 0.01
     m_Colors:
     - _OutOfFieldOverlay: {r: 0.6458704, g: 0.7173033, b: 0.7735849, a: 1}
   m_BuildTextureStacks: []

@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 118809041}
   - component: {fileID: 118809043}
   - component: {fileID: 118809042}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Obstacle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -346,6 +346,34 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 4544646553688754298, guid: cda0340a483fb264191013626228f9d2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4544646553688754298, guid: cda0340a483fb264191013626228f9d2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4544646553688754298, guid: cda0340a483fb264191013626228f9d2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4544646553688754298, guid: cda0340a483fb264191013626228f9d2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4544646553688754298, guid: cda0340a483fb264191013626228f9d2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4544646553688754298, guid: cda0340a483fb264191013626228f9d2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4544646553688754298, guid: cda0340a483fb264191013626228f9d2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4544646553688754298, guid: cda0340a483fb264191013626228f9d2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
@@ -376,7 +404,7 @@ GameObject:
   m_Component:
   - component: {fileID: 682246376}
   - component: {fileID: 682246375}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Hideable
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -494,7 +522,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1138268597}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Hideables
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -611,10 +639,6 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 4848454937579412623, guid: 4c5ff9666e9fd4040a01d5678c0666fe, type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4848454937579412623, guid: 4c5ff9666e9fd4040a01d5678c0666fe, type: 3}
       propertyPath: m_LocalPosition.y
       value: -6
       objectReference: {fileID: 0}
@@ -649,7 +673,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1822528871}
   - component: {fileID: 1822528872}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Hideable
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -732,7 +756,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2083345932}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Obstacles
   m_TagString: Untagged
   m_Icon: {fileID: 0}

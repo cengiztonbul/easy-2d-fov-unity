@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3668810941688445406}
   - component: {fileID: 593582262499714347}
   - component: {fileID: 7359481880768346730}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: FOV
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -102,4 +102,4 @@ MonoBehaviour:
   fov: 80
   obstacleLayerMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 64

@@ -88,10 +88,8 @@ namespace Easy2DFOV
             Quaternion offsetRotation = Quaternion.Euler(Vector3.back * _angleDelta);
             Vector3 currentDirection = Quaternion.Euler(Vector3.forward * fov / 2) * transform.up;
             Quaternion inverseRotation = Quaternion.Inverse(transform.rotation);
-            
+
             int vertexIndex = 1;
-            int triangleIndex = 0;
-            
             _vertices[0] = Vector3.zero;
             
             for (int i = 0; i <= rayCount; i++)
