@@ -13,7 +13,7 @@ This Unity package provides an appealing line of sight system that aims ease of 
 
 1. You can either import the released Unity package or clone the repository and open it with Unity. The project is ready to use, so the following steps are not required, but reading can help you understand and edit it based on your requirements.
 
-2. It works layer and camera based. Therefore, you need to 3 different cameras to render Environment, FOV and hideable entities. (There is an example prefab in project) Then, you need to set culling mask layers of your cameras.
+2. It works layer and camera based. Therefore, you need 3 different cameras to render Environment, FOV and hideable entities. (There is an example prefab in project) Then, you need to set culling mask layers of your cameras.
 
 3. System needs FOVCameraSetupManager script. It is already attached to existing FOVMainCamera prefab. If you set another camera for yourself, you have to attach this script and assign the references in the editor. FOV Camera should have black background and FOV should be white. (See the example scene and prefabs)
 
